@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Step 1: Clone the git repository and navigate into it
-git clone https://github.com/vaibhavmaurya/aimlops_miniproject_module3.git
+git clone https://github.com/AIMLOPSGroup7/AmazonReviewProj.git
 cd aimlops_miniproject_module3 || { echo "Directory aimlops_miniproject_module3 does not exist"; exit 1; }
 
 # Step 2: Run the Python command to train the model
