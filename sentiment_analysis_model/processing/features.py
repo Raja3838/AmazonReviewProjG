@@ -111,9 +111,7 @@ def handle_append_newcolumns(p_reviews):
     return p_reviews
 
 def read_data_from_file():
-    reviews = pd.read_csv('./datasets/reviews.csv')
-
-    
+    reviews = pd.read_csv( config.app_config.dataset_file_path)
     return reviews
 
 # test data, TODO: load from a file
